@@ -1,0 +1,134 @@
+*,::after,::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+   background-image: url(https://media.istockphoto.com/id/1763234826/vector/abstract-colorful-orange-curve-background-dynamic-orange-background-gradient-abstract.jpg?s=612x612&w=0&k=20&c=nBteUBW1fjCb2VgYyQmYZgw6YhaPRB2sAJ5UhWODVy0=);
+   width: 100%;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+.navbar {
+    display: flex;
+    margin: auto;
+    width: 82%;
+    padding: 21px 0;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: orangered;
+}
+
+.navbar.logo {
+  width: 20px;
+  color: rgb(245, 38, 38);
+  margin-top: -3%;
+  margin-left: -2%;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+ul {
+margin-top: -4%;
+}
+
+ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px 16px;
+}
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 4s ease;
+  color: black;
+}
+ul li a:hover{
+  color: rgb(236, 15, 15);}
+  
+.info{
+  margin-top: 6%;
+  margin-left: 6%;
+
+}
+.info h2{
+  color:orangered
+  font-size: 45px;
+}
+.info h3,p{
+  font-size: 17px;
+  word-spacing: 1px;
+  line-height: 33px;
+  margin-left: 25px;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+.info h1{
+  margin-left: 33px;
+  color: orangered;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  
+  
+  
+}
+.image{
+    position: absolute;
+    right: 130px;
+    top: 110px;
+    
+}
+.image img{
+  position: absolute;
+  height: 240px;
+  left: 17%;
+  bottom: 0;
+  transform: translate(-55%);
+  transition: left 3s ease;
+  top: 10px;
+
+}
+.image:hover.girl{
+  left: 15%;
+
+}
+.icons a{
+  display: flex;
+ 
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: end;
+  color: black;
+   margin-left: 40px;
+  font-size: 50px;
+  /* transition: 4s ease; */
+  
+  
+}
+.icons icn-icon{
+  margin-left: 7%;
+  color: black
+ 
+
+}
+.icons icn-icon :hover{
+  color: lightskyblue;
+
+}
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 9%;
+}
+.info h3, p {
+    font-size: 19px;
+    word-spacing: 1px;
+    line-height: 33px;
+    margin-left: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+}
